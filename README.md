@@ -7,7 +7,7 @@ Instala previamente:
 <code>apt update && apt upgrade && pkg install git && pkg install python2 && pkg install python3</code>
 
 Si ya los tienes instalados o ya los instalaste, <em>Copia y pega este comando:</em>
-<code>apt update && apt upgrade && git clone https://github.com/drowkid-1/DrowScript</code>
+<code>apt update && apt upgrade && git clone https://github.com/drowkid01/DrowScript</code>
 
 # Comando de uso
 
