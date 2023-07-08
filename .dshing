@@ -1,0 +1,49 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+ 
+import os
+ 
+def menu():
+	"""
+	"""
+	os.system('clear')
+	os.system('cd .tools;bash .b') 
+	os.system('setterm -foreground green')
+	print ("")
+	os.system('setterm -half-bright on;setterm -foreground yellow;cd .tools;python3 .espere')
+	os.system('setterm -half-bright on;setterm -foreground white')
+	print ("\ta - ░▒▓█►─═ Ｓｉ， quiero ejecutar ＤｒｏｗＳｈｉｎｇ ═─►█▓▒░")
+	print ("")
+	print ("")
+	print ("")
+	print ("\tb - ░▒▓█►─═ Ｎｏ，  regresar al menú anterior ═─►█▓▒░")
+	print ("")
+	print ("")
+	print ("")
+	print ("")
+	print ("")
+	print ("\tx -░▒▓█►─═ Salir del script═─►█▓▒░")
+	"""
+	"""
+while True:
+	# Mostramos el menu
+	menu()
+ 
+	# solicituamos una opción al usuario
+	print ("")
+	print ("")
+	print ("")
+	opcionMenu = input("¿Qué opción eliges?, ¿a, b o x? >> ")
+ 
+	if opcionMenu=="a":
+		os.system('cd .tools;python3 drowshing')
+		print ("")
+		input("Presiona enter para regresar a DrowScript o CTRL+C para salir")
+	elif opcionMenu=="b":
+		os.system('python3 drowkid.py')
+		print ("")
+	elif opcionMenu=="x":
+		break
+	else:
+		print ("")
+		input("Opción incorrecta..\n")
